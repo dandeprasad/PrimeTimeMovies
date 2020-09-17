@@ -1,0 +1,66 @@
+@import "../colors";
+.vt-hr{
+    border-right: 1px solid #233046;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.list-inline{
+    li{
+        display:inline-block;
+        padding-right:0.8rem ;
+    }
+}
+
+.list-horizontal li {
+	display:inline-block;
+}
+.list-horizontal li:before {
+	content: '\00a0\2022\00a0\00a0';
+	color:#fff;
+	color:#fff;
+	font-size:13px;
+}
+
+.font-small{
+font-size: 0.80rem;
+}
+.secondary-color{
+    color: $secondary;
+}
+.booking-button{
+    color: white !important;
+    background: black !important;
+    border-radius: 1rem !important;
+    padding: 0.475rem 1.75rem !important;
+   
+    text-decoration: solid !important;
+    font-weight: 600 !important;
+}
+.modal .modal-dialog .modal-content {
+
+            background-color: $main !important;
+  
+}
+.close {
+    color:$closebutton !important;
+}
+
+
+.my-video {
+    height: 100vh;
+    width: 100%;
+    object-fit: fill;
+  }
+  video::-internal-media-controls-download-button {
+    display:none;
+}
+
+video::-webkit-media-controls-enclosure {
+    overflow:hidden;
+}
+
+video::-webkit-media-controls-panel {
+    width: calc(100% + 30px); /* Adjust as needed */
+}

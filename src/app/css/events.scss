@@ -1,0 +1,147 @@
+.events-carosal {
+    position: absolute;
+    right: 0;
+  bottom: -10px;
+    left: 0;
+    z-index: 15;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: flex-end;
+    padding-left: 0;
+    margin-right: 3%;
+    /* margin-left: 15%; */
+    list-style: none;
+}
+
+.card-events{
+  position: absolute;
+  bottom: 0;
+  /* text-align: center; */
+  display: flex;
+  justify-content: center;
+  /* top: 0; */
+  background-color: white;
+  /* border-radius: 90px 90px 0px 0px; */
+  display: inline-block;
+  left: 12%;
+  right: 12%;
+  /* left: 0;*/
+}
+.card-events-body{
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.50rem;
+}
+.events-buttons{
+
+      padding: 24px;
+      color:black;
+      background-color: white;
+      border: transparent;
+      border-radius: 0px;
+      font-weight: 600;
+}
+
+.events-links.active:first-child{
+  background-color: blue !important;
+}
+.events-buttons-highlight{
+  background-color: #111619;
+color: white;
+}
+.event-search-div{
+  height: 150px;
+  padding: 55px;
+    background-color: #111619;
+  }
+  .event-inputs{
+  border: 0px !important;
+   border-radius: 0rem !important
+  }
+  .event-button{
+background-color: #222c32;
+ border: none;
+  }
+  .event-date-div{
+    padding: 10px;
+background-color: #ec7d67;
+  }
+  .event-para{
+    padding: 10px;
+overflow: hidden;
+height: 175px;
+text-overflow: ellipsis;
+display: -webkit-box;
+-webkit-line-clamp: 7;
+-webkit-box-orient: vertical;
+  }
+.location-para{
+  text-align: center;
+  color: black;
+  font-size: 17px;
+  /* text-overflow: ellipsis; */
+  overflow: hidden;
+  height: 30px;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+      }
+.events-header{
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-line-clamp: 1;
+      -webkit-box-orient: vertical;
+      text-align: center;
+      padding: 10px;
+      color: #010c29;
+      overflow: hidden;
+      height: 40px;
+      }
+
+  .events-bc-div {
+      position: absolute;
+      background-color: #07071d;
+      opacity: 0.3;
+      min-width: 100%;
+      min-height: 100%;
+          top: 0px;
+  }
+
+
+.events-nav.nav-link.active {
+    color: white !important;
+    /* text-decoration: underline !important; */
+    background: #010c29 !important;
+    border-radius: 0px !important;
+
+}
+
+.events-nav.nav-link:hover{
+  color: red !important;
+      /* text-decoration: underline !important; */
+      background: #323a50 !important;
+      border-radius: 0px !important;
+
+}
+
+.navbar-events{
+  padding: 0px !important
+}
+
+.events-image-eff {
+
+  overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+}
+
+/* [2] Transition property for smooth transformation of images */
+.events-image-eff img {
+  transition: transform .5s ease;
+
+}
+
+/* [3] Finally, transforming the image when container gets hovered */
+.events-image-eff:hover img {
+  transform: scale(1.5);
+}
