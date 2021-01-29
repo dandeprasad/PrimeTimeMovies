@@ -1,0 +1,178 @@
+.moive-header{
+    background-color: #050e26;
+}
+.moive-header{
+    .dropdown-menu{ background-color: #050e26 !important;
+    }
+}
+
+.movie-top-img{
+  
+    height: 50vh;
+    width: inherit;
+    background-color: #2e3448;
+
+}
+.movie-home-background{
+    background-color:  rgb(5, 24 ,55) !important
+}
+
+.movie-upcoming-img{
+    position: relative;
+    height: 20vh;
+    width: inherit;
+    border-radius: 25px;
+    background-color: #2e3448;
+img{
+    border: 0px solid #555;
+    border-radius: inherit;  
+
+}
+
+}
+.movie-home-hr{
+    border-top: 1px solid #233046 !important;
+}
+.movie-top-background{
+    background-color: rgb(46, 52, 72);
+}
+.movie-home-navbar{
+    padding: 0.5rem 1rem 0.2rem !important;
+}
+.slick-dots{
+    position: absolute !important;
+    bottom: 20px !important;
+    display: block !important;
+    width: 100% !important;
+    padding: 10 !important;
+    margin: 0 !important;
+    list-style: none !important;
+    text-align: center !important;
+    }
+    .movie-home-background-col{
+        .slick-slider{
+            margin: 0px 0px 0px 40px !important;
+        }
+    }
+    
+    .slick-dots li.slick-active button:before{
+        font-size:15px !important;
+        color:white !important;
+      }
+      .slick-prev {
+        left: 0px !important;
+        
+        height: inherit !important;
+        z-index: 4 !important;
+    }
+    .slick-next {
+        right: 0px !important;
+        z-index: 4 !important;
+    }
+      .slick-dots li button:before {
+        font-size:10px !important;
+        color:white !important; 
+      }
+      
+
+      .upcoming-movie-date{
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        border-radius: inherit;
+        padding: 1px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #18212d;
+      }
+      .movie-footer-button{
+        color: white !important;
+        padding:0rem 1rem !important;
+        border: 1px solid #283348 !important;
+        font-size: 13px !important;
+      }
+      .movie-footer-button1{
+        color: white !important;
+        padding:0.4rem 1rem !important;
+        border: 1px solid #283348 !important;
+        font-size: 13px !important;
+      }
+      .movie-sidebar {
+        height: 100vh;
+        width: 325px;
+        background: #293446;
+        opacity: 0.96;
+        position: fixed!important;
+        overflow: auto;
+        z-index: 20;
+    }
+    .pre-movie-sidebar {
+        height: 100vh;
+        width: 325px;
+        background: #3e3b3f;
+        opacity: 0.96;
+        position: fixed!important;
+        overflow: auto;
+        z-index: 20;
+    } 
+       .pre-main-side-select{
+        border: none;
+        background-color: #3e3b3f;
+        color: #c8ccce;
+        padding: 1rem;
+    }
+  
+    .w3-bar-block .w3-bar-item {
+        width: 100%;
+        display: block;
+        padding: 8px 16px;
+        text-align: left;
+        border: none;
+        white-space: normal;
+        float: none;
+        outline: 0;
+    }
+
+    .sidebar-content{
+        position: fixed;
+    width: 100%;
+    height: 100vh;
+    display: block;
+    z-index: 6;
+    overflow: auto;
+    background: black;
+    opacity: 0.5;
+    }
+    .main-side-header{
+        display: flex;
+        font-weight: 600;
+        justify-content: center;
+        padding: 2rem;
+        color: #000;
+        
+    }
+    .main-side-select{
+        border: none;
+        background-color: #283345;
+        color: #c8ccce;
+        padding: 1rem;
+    }
+    .main-side-button{
+        color: black !important;
+        padding: 0.2rem 2.5rem !important;
+        border: 1px solid #464c58 !important;
+        font-size: 16px !important;
+      }    
+        .main-side-button1{
+        color: black !important;
+        padding:0.6rem 2.5rem !important;
+        border:1px solid #464c58 !important;
+        font-size: 16px !important;
+      }
+      .main-side-nav-link {
+        color: black !important;
+        font-weight: 500;
+        padding: 1.0rem !important;
+        /* padding-left: 0.5rem; */
+    }

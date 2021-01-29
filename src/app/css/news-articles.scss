@@ -1,0 +1,176 @@
+
+.fest-left,
+.fest-right {
+  width: 50%;
+    height: 37.5ex;
+  background-color: #2b2f3f;
+}
+
+.fest-left {
+
+  float: left;
+  -webkit-shape-outside:  polygon(50% 0%, 0% 100%, 50% 100%);
+  shape-outside:  polygon(50% 0%, 0% 100%, 50% 100%);
+  -webkit-clip-path: polygon(0 0, 0 100%, 51% 0);
+  clip-path: polygon(0 0, 0 100%, 51% 0);
+}
+
+.fest-right {
+  -webkit-shape-outside: polygon(100% 0, 50% 100%, 100% 100%);
+  shape-outside:  polygon(100% 0, 50% 100%, 100% 100%);
+  float: right;
+
+
+-webkit-clip-path: polygon(100% 0, 50% 100%, 100% 100%);
+clip-path: polygon(100% 0, 50% 100%, 100% 100%);
+}
+.fest-left1,
+.fest-right1 {
+  width: 50%;
+  height: 36ex;
+  background-color: #2b2f3f;
+}
+
+.fest-left1 {
+
+  float: left;
+  -webkit-shape-outside:  polygon(50% 0%, 0% 100%, 50% 100%);
+  shape-outside:  polygon(50% 0%, 0% 100%, 50% 100%);
+  -webkit-clip-path: polygon(0 0, 0% 100%, 50% 100%);
+  clip-path: polygon(0 0, 0% 100%, 50% 100%);
+}
+
+.fest-right1 {
+  -webkit-shape-outside: polygon(50% 0, 100% 0, 100% 100%);
+  shape-outside:   polygon(50% 0, 100% 0, 100% 100%);
+  float: right;
+
+  -webkit-clip-path: polygon(50% 0, 100% 0, 100% 100%);
+  clip-path: polygon(50% 0, 100% 0, 100% 100%);
+}
+
+
+.polyleft,
+.polyright {
+    width: 30%;
+    height: 25ex;
+    background-color: #373a4a;
+}
+
+
+.polyleft {
+
+  float: left;
+  -webkit-shape-outside: polygon(0 0, 100% 0%, 65% 100%, 0% 100%);
+  shape-outside:  polygon(0 0, 100% 0%, 65% 100%, 0% 100%);
+  -webkit-clip-path: polygon(0 0, 100% 0%, 65% 100%, 0% 100%);
+  clip-path: polygon(0 0, 100% 0%, 65% 100%, 0% 100%);
+}
+
+
+.polyright {
+  -webkit-shape-outside: polygon(35% 0, 100% 0%, 100% 100%, 0 100%);
+  shape-outside:  polygon(35% 0, 100% 0%, 100% 100%, 0 100%);
+  float: right;
+
+  -webkit-clip-path: polygon(35% 0, 100% 0%, 100% 100%, 0 100%);
+  clip-path: polygon(35% 0, 100% 0%, 100% 100%, 0 100%);
+
+}
+.festbcdiv-override{
+      background-color: #535261;
+        min-height:200px;
+}
+
+
+
+p {
+  text-align: left;
+}
+
+.news-header{
+  padding: 10px;
+        color: #010c29;
+}
+.news-search{
+     font-size: 25px;
+    height: 40%;
+    width: 70%;}
+
+
+    .news-bc-div {
+        position: absolute;
+        background-color: #07071d;
+        opacity: 0.5;
+        min-width: 100%;
+        min-height: 275px;
+            top: 0px;
+    }
+
+  .news-content-div   {
+        position: absolute;
+        bottom: 10px;
+        /* left: 30px; */
+        /* transform: translate(-50%, -55%); */
+        /* padding: 10px; */
+        left: 10%;
+        text-align: left;
+        color: white;}
+
+
+        .carControlnews > .carousel-control-prev-icon {
+          width: 25px;
+          height: 50px;
+    background-color: black;
+}
+.carControlnews > .carousel-control-next-icon {
+  width: 25px;
+  height: 50px;
+background-color: black;
+}
+.news-button{
+padding: 4px 20px 0px 0px;
+background-color: white;
+border: none;
+}
+.news-hr{
+  margin-top: 0rem;
+margin-bottom: 0.4rem;
+border: none;
+/* margin: 0px; */
+border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .news-rowdata{
+  height: 605px;
+  }
+}
+
+
+
+
+
+
+
+
+
+.item  {
+  // max-width: 100%;
+  //
+  // -moz-transition: all 0.3s;
+  // -webkit-transition: all 0.3s;
+  // transition: all 0.3s;
+}
+.item:hover  {
+  // -moz-transform: scale(1.1);
+  // -webkit-transform: scale(1.1);
+  // transform: scale(1.1);
+}
+.news-seedetails{
+  background: #010c29;
+border-radius: 10px;
+padding: 2px;
+color: white !important;
+}

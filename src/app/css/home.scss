@@ -1,0 +1,115 @@
+.searchdata{background-color: #0f1932;
+border-radius: 0rem;
+border: 1px solid #0f1932;
+color: #868891;}
+
+.submit-button{    border: 3px solid #f8f9fa;
+    background-color: #0e1112;
+    color: #f8f9fa;
+  }
+
+.exams-carosal {
+    position: absolute;
+    right: 0;
+  bottom: -10px;
+    left: 0;
+    z-index: 15;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    margin-left: 0px;
+    justify-content: flex-start;
+    padding-left: 0;
+    margin-right: 3%;
+    /* margin-left: 15%; */
+    list-style: none;
+}
+.home-exam-details{
+  padding: 10px;
+      overflow: hidden;
+      height: 59px;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+}
+.home-fest-details{
+  padding: 10px;
+      overflow: hidden;
+      height: 59px;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+}
+
+
+
+.home-all-details-h5{font-size: 1.25rem;
+padding: 10px;
+overflow: hidden;
+height: 35px;
+text-overflow: ellipsis;
+display: -webkit-box;
+-webkit-line-clamp: 2;
+-webkit-box-orient: vertical;
+}
+.home-news-details-h5{
+  font-size: 1.25rem;
+padding: 10px;
+overflow: hidden;
+height: 81px;
+text-overflow: ellipsis;
+display: -webkit-box;
+-webkit-line-clamp: 3;
+-webkit-box-orient: vertical;
+}
+.home-news-p{
+height: 37px;
+}
+.homecaros1{
+margin:'40px 50px 40px 50px'
+}
+.homecaros2{
+  margin: '50px 50px 0px 0px'
+}
+@media screen and (min-width: 600px) {
+  .homecaros2{
+    margin: '0px'
+  }
+  .homecaros1{
+  margin:'0px'
+  }
+}
+
+
+.nav-link{  border-bottom: 4px solid transparent;
+}
+
+.nav-link.active {
+  border-bottom: 4px solid #010c29;
+}
+.nav-link:hover{
+  border-bottom: 4px solid #010c29 !important;
+}
+.header-style{
+  float: left;
+      color: #010c29;
+      width: 10px;
+      background: #010c29;
+      background-color: #010c29;
+      height: 25px;
+      margin-right: 10px;
+}
+.header-style1 {
+
+    color: white;
+    width: 25px;
+    background: white;
+    background-color: white;
+    height: 5px;
+    margin-right: 10px;
+}
+.home-div-shadow:hover{
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+     }

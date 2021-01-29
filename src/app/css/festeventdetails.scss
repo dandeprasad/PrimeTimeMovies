@@ -1,0 +1,329 @@
+.festBackImg {
+  max-width: 100%;
+}
+.festBackImg1 {
+  height: inherit;
+      position: absolute;
+      width: inherit;
+      position: absolute;
+}
+
+.festCont{
+   position: relative;
+}
+.festCont1{
+   position: relative;
+height: 100%;
+width: 100%}
+
+.breadFirst {
+  position: absolute;
+  top:10px;
+
+}
+.festenddate {
+text-align:end;
+}
+.festregbutton{
+  float: right;
+    font-size: 2vh;
+}
+.breadEnd {
+    color: #0d1011;
+    position: absolute;
+    bottom: 10px;
+    font-size: 2vh;
+    font-weight: 600;
+}
+.fest-center {
+  position: absolute;
+  top: 50%;
+    left: 55%;
+  transform: translate(-50%, -50%);
+   font-family: 'Dancing Script';
+   font-size: 4vh;
+color: white;
+}
+
+
+
+header {
+  position: relative;
+  height: 300px;
+  overflow: hidden;
+}
+
+.header__bg {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(#ff9d2f, #ff6126);
+  transform: skew(-40deg);
+      transform-origin: bottom right;
+}
+
+.header__bg1 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(#ff9d2f, #ff6126);
+  transform: skew(-50deg);
+  transform-origin: top right;
+}
+
+
+.bc1 {
+    display: inline-block;
+    position: absolute;
+    /* margin: 32px; */
+    /* transform: translate(100%); */
+    width: 37%;
+}
+.bc2 {
+    display: inline-block;
+    position: absolute;
+    /* margin: 32px; */
+    transform: translate(100%);
+    width: 50%;
+}
+
+
+
+
+
+.fest_col_color{
+  background-color: white
+}
+.fest_col_parag{
+  padding: 20px 0px 5px 0px;
+  margin-left: 0px;
+}
+.fest_para_style{
+  padding: 10px;
+font-weight: 100;
+font-size: 1.2em
+}
+
+.fest_col_depart_ty{
+background-color: #fff;
+}
+.fest_col_span{
+    padding: 10px;
+    color: #000;
+    overflow-wrap:break-word;
+    font-weight: 100;
+
+}
+.fest_acco{
+  color: rgb(255, 255, 255);
+text-align: center;
+padding: inherit;
+}
+.fest_acco_row{
+  background-color: #24273a;
+    text-align: center;
+    padding: 10px 0px 0px 30px;
+    font-size: 25px;
+}
+.facetwitgoog{
+background-color: #f1f1f1;
+position: relative;
+}
+.facetwitgoogspn{
+  border-radius: 50%;
+  padding: 30px;
+margin: 10px;
+    cursor: grab;
+    background-color: white;
+
+}
+.facetwitgoogone{
+  position: absolute;
+  left: 20px;
+  top: 75%;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.festbcdiv{
+  position: absolute;
+  background-color: #636363;
+      opacity: 0.5;
+min-width: 100%;
+min-height: 300px;
+}
+.festbcdiv1 {
+  min-height: 425px
+}
+.festbcdiv2{
+  position: absolute;
+min-width: 100%;
+background-color: white;
+    opacity: 0.8;
+}
+.festbcdiv3{
+text-align: center;
+    padding: 5px 0px 6px 0px;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+.festbcdiv4{
+   font-family: 'Dancing Script';
+   padding: 25px;
+ }
+
+.festeventsdiv{
+ position: absolute;
+top: 16%;
+left: 6%;
+width: 50%;
+height: 282px;
+background-color: #376855;
+opacity: 0.9;
+overflow: scroll;
+}
+.festslideheader{
+color: #e0cbbc;
+font-style: italic;
+    padding: 10px;
+    text-align: center;
+}
+.festslideheader1{
+color: white;
+    text-align: center;
+    font-style: italic;
+}
+@media screen and (max-width: 600px) {
+  .festenddate {
+    text-align: center;
+  }
+  .feststartdate {
+    text-align: center;
+  }
+
+  .festeventsdiv {
+    position: absolute;
+    top: 16%;
+  left: 0%;
+    width: 100%;
+    height: 282px;
+    background-color: #376855;
+    opacity: 0.9;
+    overflow: scroll;
+}
+}
+
+@media screen and (max-width: 600px) {
+.center {
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    font-family: 'Dancing Script';
+    font-size: 3vh;
+    color: white;
+}}
+
+
+.hexagon {
+  position: absolute;
+  right: 20%;
+  top: 25%;
+    width: 200px;
+    height: 400px;
+
+    -webkit-shape-outside: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    shape-outside:  polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+
+    -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    width: 15%;
+    height: 20ex;
+    background-color: #373a4a;
+    }
+
+
+
+
+
+
+
+    .festenddiv{    position: relative;
+
+        height: 400px;
+          padding: 0px;
+}
+.carControl > .carousel-control-prev-icon{
+      background-color: black;
+      height: 65px;
+width: 32px;
+}
+.carControl > .carousel-control-next-icon{
+      background-color: black;
+      height: 65px;
+width: 32px;
+}
+.festenddiv1{
+  background-color: #313444;
+position: absolute;
+    height: 325PX;
+    top: 75px;
+        z-index: 2;
+        overflow: scroll;
+}
+.festenddiv2{
+BACKGROUND-COLOR: #b7b7b7;
+    PADDING-TOP: 60PX;
+    PADDING-BOTTOM: 100PX;
+  }
+  .festbcdivend{
+  position: absolute;
+    background-color: #63636e;
+    opacity: 0.5;
+    min-width: 100%;
+    min-height: 300px;
+    z-index: 1;
+}
+
+.festsendtext {
+
+  text-align: left;
+  font-style: normal;
+  font-weight: 200;
+  padding: 5px;
+  }
+    .festsendtext1 {
+
+    padding: 10px;
+    text-align: center;
+}
+.festenddivor{
+  background-color: #868691;
+}
+.festenddiv3{
+text-align: center;
+/* padding: 10px; */
+background-color: white;
+}
+.newsbcdiv-override{
+  .polyleft,
+  .polyright {
+      width: 30%;
+  height: 36ex;
+      background-color: black;
+  }
+}
+.evt-details-nav.active{
+  background-color: red;
+  color: floralwhite;
+}
