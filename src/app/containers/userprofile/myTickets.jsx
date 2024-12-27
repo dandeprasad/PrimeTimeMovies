@@ -4,8 +4,6 @@ import { Row, Col } from 'reactstrap';
 import { connect } from "react-redux";
 import '../../css/userprofile/user-home.scss';
 import { Progress } from 'reactstrap';
-import Timer from "react-compound-timer";
-import PropTypes from 'prop-types';
 import ReactTimer from '../../utils/time'
 class MyTickets extends React.Component {
 
